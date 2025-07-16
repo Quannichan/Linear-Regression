@@ -13,7 +13,7 @@ def main():
         print(str(prd.predict(h)) + "kg")
     elif c == 3:
         train = Train()
-        train.train_loop(10000, 1e-4)
+        train.train_loop(10000, 1e-5)
     elif c == 4:
         h = float(input("Nhập chiều cao: "))
         prd = Predict_base_training()
